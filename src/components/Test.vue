@@ -1,6 +1,7 @@
 <template>
     <div class="Test">
         <h1>{{msg}}</h1>
+        <p>{{info}}</p>
     </div>
 </template>
 
@@ -9,7 +10,8 @@
         name: "Test",
         data(){
             return {
-                msg:"test"
+                msg:"test",
+                info:"chengxuyuana"
             }
         }
     }
